@@ -1,0 +1,16 @@
+type: intent
+name: movePiece
+utterances:
+  - move [chesspiece:piece](pawn) from [origin:boardsquare](e2) to [destination:boardsquare](e4)
+  - "[chesspiece:piece](queen) from [origin:boardsquare](a3) to [destination:boardsquare](a7)"
+  - "[origin:boardsquare](b2) to [destination:boardsquare](b4)"
+  - "[origin:boardsquare](c5) [destination:boardsquare](c4)"
+  - "[destination:boardsquare](e4)"
+
+  # captures
+  - "[origin:boardsquare](e4) takes [destination:boardsquare](a7)"
+  - "[origin:boardsquare](e4) takes [chesspiece:piece](queen) on [destination:boardsquare](a7)"
+  - "[chesspiece:piece](pawn) on [origin:boardsquare](e4) takes [chesspiece:piece](queen) on [destination:boardsquare](a7)"
+  - "[chesspiece:piece](pawn) on [origin:boardsquare](e4) takes on [destination:boardsquare](a7)"
+  - "[chesspiece:piece](pawn) on [origin:boardsquare](e4) takes [destination:boardsquare](a7)"
+  

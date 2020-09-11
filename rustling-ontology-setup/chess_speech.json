@@ -1,0 +1,530 @@
+{
+  "entities": {
+    "boardsquare": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "a1"
+        },
+        {
+          "synonyms": [],
+          "value": "a2"
+        },
+        {
+          "synonyms": [],
+          "value": "a3"
+        },
+        {
+          "synonyms": [],
+          "value": "a4"
+        },
+        {
+          "synonyms": [],
+          "value": "a5"
+        },
+        {
+          "synonyms": [],
+          "value": "a6"
+        },
+        {
+          "synonyms": [],
+          "value": "a7"
+        },
+        {
+          "synonyms": [],
+          "value": "a8"
+        },
+        {
+          "synonyms": [],
+          "value": "b1"
+        },
+        {
+          "synonyms": [],
+          "value": "b2"
+        },
+        {
+          "synonyms": [],
+          "value": "b3"
+        },
+        {
+          "synonyms": [],
+          "value": "b4"
+        },
+        {
+          "synonyms": [],
+          "value": "b5"
+        },
+        {
+          "synonyms": [],
+          "value": "b6"
+        },
+        {
+          "synonyms": [],
+          "value": "b7"
+        },
+        {
+          "synonyms": [],
+          "value": "b8"
+        },
+        {
+          "synonyms": [],
+          "value": "c1"
+        },
+        {
+          "synonyms": [],
+          "value": "c2"
+        },
+        {
+          "synonyms": [],
+          "value": "c3"
+        },
+        {
+          "synonyms": [],
+          "value": "c4"
+        },
+        {
+          "synonyms": [],
+          "value": "c5"
+        },
+        {
+          "synonyms": [],
+          "value": "c6"
+        },
+        {
+          "synonyms": [],
+          "value": "c7"
+        },
+        {
+          "synonyms": [],
+          "value": "c8"
+        },
+        {
+          "synonyms": [],
+          "value": "d1"
+        },
+        {
+          "synonyms": [],
+          "value": "d2"
+        },
+        {
+          "synonyms": [],
+          "value": "d3"
+        },
+        {
+          "synonyms": [],
+          "value": "d4"
+        },
+        {
+          "synonyms": [],
+          "value": "d5"
+        },
+        {
+          "synonyms": [],
+          "value": "d6"
+        },
+        {
+          "synonyms": [],
+          "value": "d7"
+        },
+        {
+          "synonyms": [],
+          "value": "d8"
+        },
+        {
+          "synonyms": [],
+          "value": "e1"
+        },
+        {
+          "synonyms": [],
+          "value": "e2"
+        },
+        {
+          "synonyms": [],
+          "value": "e3"
+        },
+        {
+          "synonyms": [],
+          "value": "e4"
+        },
+        {
+          "synonyms": [],
+          "value": "e5"
+        },
+        {
+          "synonyms": [],
+          "value": "e6"
+        },
+        {
+          "synonyms": [],
+          "value": "e7"
+        },
+        {
+          "synonyms": [],
+          "value": "e8"
+        },
+        {
+          "synonyms": [],
+          "value": "f1"
+        },
+        {
+          "synonyms": [],
+          "value": "f2"
+        },
+        {
+          "synonyms": [],
+          "value": "f3"
+        },
+        {
+          "synonyms": [],
+          "value": "f4"
+        },
+        {
+          "synonyms": [],
+          "value": "f5"
+        },
+        {
+          "synonyms": [],
+          "value": "f6"
+        },
+        {
+          "synonyms": [],
+          "value": "f7"
+        },
+        {
+          "synonyms": [],
+          "value": "f8"
+        },
+        {
+          "synonyms": [],
+          "value": "g1"
+        },
+        {
+          "synonyms": [],
+          "value": "g2"
+        },
+        {
+          "synonyms": [],
+          "value": "g3"
+        },
+        {
+          "synonyms": [],
+          "value": "g4"
+        },
+        {
+          "synonyms": [],
+          "value": "g5"
+        },
+        {
+          "synonyms": [],
+          "value": "g6"
+        },
+        {
+          "synonyms": [],
+          "value": "g7"
+        },
+        {
+          "synonyms": [],
+          "value": "g8"
+        },
+        {
+          "synonyms": [],
+          "value": "h1"
+        },
+        {
+          "synonyms": [],
+          "value": "h2"
+        },
+        {
+          "synonyms": [],
+          "value": "h3"
+        },
+        {
+          "synonyms": [],
+          "value": "h4"
+        },
+        {
+          "synonyms": [],
+          "value": "h5"
+        },
+        {
+          "synonyms": [],
+          "value": "h6"
+        },
+        {
+          "synonyms": [],
+          "value": "h7"
+        },
+        {
+          "synonyms": [],
+          "value": "h8"
+        }
+      ],
+      "matching_strictness": 1,
+      "use_synonyms": true
+    },
+    "piece": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "pawn"
+        },
+        {
+          "synonyms": [
+            "horse"
+          ],
+          "value": "knight"
+        },
+        {
+          "synonyms": [
+            "tower"
+          ],
+          "value": "rook"
+        },
+        {
+          "synonyms": [],
+          "value": "bishop"
+        },
+        {
+          "synonyms": [],
+          "value": "queen"
+        },
+        {
+          "synonyms": [],
+          "value": "king"
+        }
+      ],
+      "matching_strictness": 1,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "movePiece": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "move "
+            },
+            {
+              "entity": "piece",
+              "slot_name": "chesspiece",
+              "text": "pawn"
+            },
+            {
+              "text": " from "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "a1"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "a2"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "piece",
+              "slot_name": "chesspiece",
+              "text": "knight"
+            },
+            {
+              "text": " from "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "a3"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "a4"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "a5"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "a6"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "a7"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "a8"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "b1"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "b2"
+            },
+            {
+              "text": " takes "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "b3"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "b4"
+            },
+            {
+              "text": " takes "
+            },
+            {
+              "entity": "piece",
+              "slot_name": "chesspiece",
+              "text": "queen"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "b5"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "piece",
+              "slot_name": "chesspiece",
+              "text": "horse"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "b6"
+            },
+            {
+              "text": " takes "
+            },
+            {
+              "entity": "piece",
+              "slot_name": "chesspiece",
+              "text": "rook"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "b7"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "piece",
+              "slot_name": "chesspiece",
+              "text": "tower"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "b8"
+            },
+            {
+              "text": " takes on "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "c1"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "piece",
+              "slot_name": "chesspiece",
+              "text": "bishop"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "origin",
+              "text": "c2"
+            },
+            {
+              "text": " takes "
+            },
+            {
+              "entity": "boardsquare",
+              "slot_name": "destination",
+              "text": "c3"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

@@ -1,0 +1,12 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "boardsquare",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "piece",
+      "entity_parser": "parser_2"
+    }
+  ]
+}

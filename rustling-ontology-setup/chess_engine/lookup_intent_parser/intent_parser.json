@@ -1,0 +1,101 @@
+{
+  "config": {
+    "ignore_stop_words": true,
+    "unit_name": "lookup_intent_parser"
+  },
+  "entity_scopes": [
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": [
+          "piece",
+          "boardsquare"
+        ]
+      },
+      "intent_group": [
+        "movePiece"
+      ]
+    }
+  ],
+  "intents_names": [
+    "movePiece"
+  ],
+  "language_code": "en",
+  "map": {
+    "-1948078888": [
+      0,
+      [
+        2
+      ]
+    ],
+    "-1201366101": [
+      0,
+      [
+        1,
+        2
+      ]
+    ],
+    "-1152731308": [
+      0,
+      [
+        1,
+        0,
+        2
+      ]
+    ],
+    "-296190862": [
+      0,
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "-269939869": [
+      0,
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "141362662": [
+      0,
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "187992873": [
+      0,
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "792687991": [
+      0,
+      [
+        0,
+        1,
+        0,
+        2
+      ]
+    ],
+    "2053623131": [
+      0,
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "slots_names": [
+    "chesspiece",
+    "origin",
+    "destination"
+  ],
+  "stop_words_whitelist": {}
+}
